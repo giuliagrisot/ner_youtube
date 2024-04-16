@@ -7,6 +7,10 @@ import spacy
 import json
 import random
 
+# In this script we will be using the Harry Potter NER model to identify named entities in a text
+# The Harry Potter NER model was trained using the Harry Potter books
+# The model was trained using the following code:
+
 def load_data(file):
     with open(file, "r", encoding="utf-8") as f:
         data = json.load(f)
